@@ -1,0 +1,27 @@
+# Environment and secrets
+**/.env
+**/.env.*
+!**/.env.example
+
+# Java / Maven
+**/target/
+
+# Node / Vite
+**/node_modules/
+**/dist/
+**/.vite/
+**/coverage/
+
+# IDE and operating system
+.idea/
+*.iml
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Logs
+*.log
+npm-debug.log*
